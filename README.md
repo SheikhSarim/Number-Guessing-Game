@@ -87,4 +87,4 @@ The Number Guessing Game is a simple web-based game where players attempt to gue
 
 ### Credits:
 
-* Developed by [Your Name].
+* Developed by [Sheikh Sarim].
