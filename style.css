@@ -1,0 +1,78 @@
+/* main:
+Used for the main container of the game.
+guessForm:
+The form element for submitting guesses.
+difficulty:
+The dropdown select for choosing the difficulty level.
+guess:
+The input field where users enter their guesses.
+guessHelp:
+A helper text element that provides guidance on the input.
+gameInfo:
+A container for displaying game-related information.
+remainingGuesses:
+Displays the number of remaining guesses.
+remainingCount:
+A span element within remainingGuesses that shows the actual count.
+previousGuesses:
+Displays the previous guesses made by the user.
+previousList:
+A span element within previousGuesses that shows the actual list of previous guesses.
+guessFeedback:
+Displays feedback on the last guess made by the user.
+lastGuess:
+A span element within guessFeedback that shows the last guess value. */
+@font-face {
+    font-family: "Ubuntu";
+    src: url("https://fonts.gstatic.com/s/ubuntu/v15/KFOmCnqEu92Fr1Mu4mxP.woff2") format("woff2"),
+         url("https://fonts.gstatic.com/s/ubuntu/v15/KFOmCnqEu92Fr1Mu4mxP.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    color: #1E1E1E;
+    background-color: #a36666;
+    background-image:
+        repeating-linear-gradient(to right, transparent 0 150px, #0001 150px 151px),
+        repeating-linear-gradient(to bottom, transparent 0 150px, #0001 150px 151px),
+        linear-gradient(to right, #CDCDCDcc, #CDCDCDcc);
+}
+
+.input-group {
+    position: relative;
+}
+
+.submit-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    margin-left: 10px;
+    /* Optional: Adds space between input and button */
+}
+
+.hidden {
+    display: none !important;
+}
+
+#gameBox {
+    background-color: #fdfdfd49;
+}
